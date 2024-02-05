@@ -11,7 +11,9 @@
   font-family: "Poppins", sans-serif;
   scroll-behavior: smooth;
 }
-
+body {
+  background: rgb(223, 223, 223);
+}
 .container {
   width: 1100px;
   margin: auto;
@@ -190,6 +192,10 @@
   display: grid;
 }
 
+.pagecell{
+  background-color: white;
+}
+
 .TCellDesign {
   color: black;
   background-color: #ffffff;
@@ -295,4 +301,5 @@
 
 .footercont {
   margin-top: 50px;
+  width: auto;
 }
