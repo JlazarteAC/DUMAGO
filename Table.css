@@ -1,0 +1,213 @@
+.accordion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 0;
+  padding-left: 70px;
+  padding-right: 70px;
+
+}
+
+.toggle-input {
+  display: none;
+}
+
+.toggle-label {
+  display: block;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  background-color: #eee;
+  border-style: solid;
+  border-color: rgb(228, 151, 8);
+  border-width: 1px;
+}
+
+.toggle-label:hover {
+  background-color: #ccc;
+}
+
+.toggle-content {
+  height: 0;
+  overflow: hidden;
+  transition: height 0.3s ease;
+}
+
+.toggle-input:checked+.toggle-label+.toggle-content {
+  height: auto;
+}
+
+.toggle-content .capsule {
+  display: flex;
+  flex-direction: row;
+  ;
+}
+
+.AccCell {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  width: 50%;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+}
+
+.AccCell img {
+  width: 120px;
+}
+
+.AccCell a {
+  border-radius: 20px;
+  padding: 10px 26px;
+  width: 120px;
+  cursor: pointer;
+  background-color: orange;
+
+}
+
+.AccCell button {
+  background-color: orange;
+  cursor: pointer;
+
+}
+
+.displayimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.displayimage img {
+
+  height: 50vh;
+  margin: 20px;
+
+}
+
+
+.togglecontent {
+  display: flex;
+  justify-content: space-between;
+}
+
+#Accommodation {
+  padding-bottom: 20px;
+}
+
+
+.bucket {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+
+}
+
+.row {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.quarter {
+  float: left;
+  padding: 15px;
+
+}
+
+.quarter img {
+  float: left;
+  border-radius: 50%;
+  width: 400px;
+  display: flex;
+  justify-content: space-around;
+  box-shadow: 1px 30px 20px rgba(0, 0, 0, 0.1)
+}
+
+
+.pagedisplay {
+  width: 400px;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  padding: 35px 50px;
+}
+
+
+.pagedisplay {
+  width: 400px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  height: 500px;
+}
+
+.pagedisplay img {
+  padding: 20px 20px;
+}
+
+.pagedisplay h2 {
+  padding: 0px 20px;
+}
+
+.pagedisplay p {
+  padding: 0px 20px;
+  padding-bottom: 20px;
+}
+
+
+footer {
+  font-family: Verdana, sans-serif;
+  background-color: black;
+  height: 50vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 205px;
+}
+
+.footercont {
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  padding-right: 0px;
+  padding-left: 35%;
+
+}
+
+.footercont a {
+  text-decoration: none;
+}
+
+.selfhand {
+  padding: 30px;
+  border: 1px solid white;
+  justify-content: space-around;
+  display: flex;
+}
+
+.selfhand p {
+  width: 300px;
+  font-size: 15px;
+}
+
+.selftext {
+  padding: 0px 40px;
+}
+
+.selftext li {
+  border-bottom: 1px solid white;
+  text-decoration: none;
+}
+
+.selftext a {
+  text-decoration: none;
+  color: white;
+}
